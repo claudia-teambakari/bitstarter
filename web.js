@@ -3,8 +3,8 @@
 //app.use(express.logger());
 
 var fs = require('fs');
-var file = index.html;
-  response.send(fs.readFileSync(file, 'utf8);
+var file = fs.readFileSync(' index.html', 'utf-8');
+  response.send(file);
   
 //app.get('/', function(request, response) {
 //  response.send('Hello World 2!');
